@@ -4,19 +4,12 @@ body {
 }
 .container {
   border: 5px solid red;
-  height: 300px;
-  height: 50vh;
+  height: 800px;
+  height: 100vh;
   display: flex;
-  flex-wrap: wrap;
-  /* 
-    align'content*
-    stretch(default) flex*/
-  align-content: stretch;
-  align-content: flex-end;
-  align-content: flex-start;
-  align-content: center;
-  align-content: space-around;
-  align-content: space-between;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
 }
 .box {
   padding: 30px;
@@ -38,7 +31,4 @@ body {
 }
 .box-5 {
   background: #47968f;
-}
-.generic {
-  background: #4d6e9e;
 }
